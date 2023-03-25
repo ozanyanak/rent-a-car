@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9d6fc99-77d8-4036-a247-f116ea17521d" name="Changes" comment="">
+    <list default="true" id="d9d6fc99-77d8-4036-a247-f116ea17521d" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/RentACarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/RentACarApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/BrandsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/BrandsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/abstracts/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/abstracts/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/BrandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/BrandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/entities/concretes/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/entities/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/abstracts/BrandRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/BrandRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/concretes/InMemoryBrandRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,13 +53,14 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/engin/rent-a-car&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/engin/rent-a-car",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\engin\TurkcellBootcamp\rent-a-car\src\main\java\kodlama\io\rentacar\repository" />
@@ -88,6 +99,33 @@
       <option name="presentableId" value="Default" />
       <updated>1679137684329</updated>
     </task>
+    <task id="LOCAL-00001" summary="güncelleme denemesi">
+      <created>1679475498742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679475498742</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".">
+      <created>1679475649830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679475649830</updated>
+    </task>
+    <task id="LOCAL-00003" summary=".">
+      <created>1679475698849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679475698849</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="güncelleme denemesi" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
