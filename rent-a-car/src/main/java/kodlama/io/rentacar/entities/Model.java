@@ -8,24 +8,24 @@ import lombok.Setter;
 
 import java.util.List;
 
-
-//lombok:
 @Entity
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="brands")
-//@Data da ekleyebilirdin getter setter diye eklemektense ekstradan to string vb ekliyor
-public class Brand {
-//lombock ile yapacağız ileride
+@Getter
+@Setter
+@Table(name = "models")
 
+public class Model {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
-    @OneToMany(mappedBy = "brand")
-    private List<Model> models;
+    @ManyToOne
+
+    @JoinColumn(name = "brand_id")
+    private Brand brand;
 
 
+    @OneToMany(mappedBy = "model")
+    private List<Car> cars;
 }
