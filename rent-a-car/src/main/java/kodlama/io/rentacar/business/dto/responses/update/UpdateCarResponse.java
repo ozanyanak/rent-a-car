@@ -1,7 +1,5 @@
 package kodlama.io.rentacar.business.dto.responses.update;
 
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import kodlama.io.rentacar.entities.enums.State;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,10 +10,11 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class UpdateCarResponse {   private int id;
-    private  int ModelYear;
-    private String DailyPrice;
+public class UpdateCarResponse {
+    private int id;
+    private int modelId;
+    private int modelYear;
     private String plate;
-    @Enumerated(EnumType.STRING)
     private State state;
+    private double dailyPrice;
 }

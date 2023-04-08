@@ -14,6 +14,8 @@ import lombok.Setter;
 @Setter
 public class CreateCarResponse {
     private int id;
+    private int modelId;
+
     private  int ModelYear;
     private String DailyPrice;
     private String plate;

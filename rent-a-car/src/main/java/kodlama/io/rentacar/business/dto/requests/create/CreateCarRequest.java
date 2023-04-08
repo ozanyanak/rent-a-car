@@ -10,6 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class CreateCarRequest {
+    private int modelId;
     private  int ModelYear;
     private String DailyPrice;
     private String plate;

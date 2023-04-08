@@ -1,7 +1,5 @@
 package kodlama.io.rentacar.business.dto.responses.get;
 
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import kodlama.io.rentacar.entities.enums.State;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -15,9 +13,9 @@ import lombok.Setter;
 
 public class GetAllCarsResponse {
     private int id;
-    private  int ModelYear;
-    private String DailyPrice;
+    private int modelId;
+    private int modelYear;
     private String plate;
-    @Enumerated(EnumType.STRING)
     private State state;
+    private double dailyPrice;
 }

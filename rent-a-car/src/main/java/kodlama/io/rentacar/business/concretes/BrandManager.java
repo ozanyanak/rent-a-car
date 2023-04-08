@@ -20,62 +20,65 @@ import java.util.List;
 public class BrandManager implements BrandService {
 
     private final BrandRepository repository;
-    private final ModelMapper modelMapper;
-
+    private final ModelMapper mapper;
 
     @Override
-    public List<GetAllBrandsResponse> gettAll() {
-        List<Brand> brands= repository.findAll();
-        List<GetAllBrandsResponse> response= brands
+    public List<GetAllBrandsResponse> getAll() {
+        List<Brand> brands = repository.findAll();
+        List<GetAllBrandsResponse> response = brands
                 .stream()
-                .map(brand -> modelMapper.map(brand, GetAllBrandsResponse.class))
-        .toList();
+                .map(brand -> mapper.map(brand, GetAllBrandsResponse.class))
+                .toList();
+
         return response;
-     }
+    }
 
     @Override
     public GetBrandResponse getById(int id) {
-        checkİfBrandExist(id);
+        checkIfBrandExistsById(id);
+        Brand brand = repository.findById(id).orElseThrow();
+        GetBrandResponse response = mapper.map(brand, GetBrandResponse.class);
 
-        Brand brand= repository.findById(id).orElseThrow();
-        GetBrandResponse response= modelMapper.map(brand,GetBrandResponse.class);
         return response;
-
     }
 
     @Override
     public CreateBrandResponse add(CreateBrandRequest request) {
-//        Brand brand=  new Brand();
-//        brand.setName(request.getName());
-//        repository.save(brand);
-//        CreateBrandResponse response= new CreateBrandResponse();
-//        response.setId(brand.getId());
-//        response.setName(brand.getName());
-//        return response;
-
-        Brand brand = modelMapper.map(request, Brand.class);
+        checkIfBrandExistsByName(request.getName());
+        Brand brand = mapper.map(request, Brand.class);
         brand.setId(0);
         repository.save(brand);
-        CreateBrandResponse response =modelMapper.map(brand,CreateBrandResponse.class);
+        CreateBrandResponse response = mapper.map(brand, CreateBrandResponse.class);
 
         return response;
     }
 
     @Override
     public UpdateBrandResponse update(int id, UpdateBrandRequest request) {
-        request.setId(id);
-        Brand brand = modelMapper.map(request, Brand.class);
-        Brand updatedBrand = repository.save(brand);
-        return modelMapper.map(updatedBrand, UpdateBrandResponse.class);
+        checkIfBrandExistsById(id);
+        Brand brand = mapper.map(request, Brand.class);
+        brand.setId(id);
+        repository.save(brand);
+        UpdateBrandResponse response = mapper.map(brand, UpdateBrandResponse.class);
+
+        return response;
     }
 
     @Override
     public void delete(int id) {
+        checkIfBrandExistsById(id);
         repository.deleteById(id);
     }
 
-    private void checkİfBrandExist(int id) {
-        if (!repository.existsById(id)) throw new RuntimeException("marka bulunamadı");
+    // Business rules
 
+    private void checkIfBrandExistsById(int id) {
+        if (!repository.existsById(id)) throw new RuntimeException("Böyle bir marka mevcut değil.");
+    }
+
+    private void checkIfBrandExistsByName(String name) {
+        if (repository.existsByNameIgnoreCase(name)) {
+            throw new RuntimeException("Böyle bir marka sistemde kayıtlı!");
+        }
     }
 }
