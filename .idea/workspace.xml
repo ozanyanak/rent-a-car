@@ -5,45 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d6fc99-77d8-4036-a247-f116ea17521d" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/MaintenancesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/abstracts/MaintenanceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/MaintenanceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/create/CreateMaintenanceRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/update/UpdateMaintenanceRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/create/CreateMaintenanceResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetAllMaintenancesResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetMaintenanceResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/update/UpdateMaintenanceResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/entities/Maintenance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/MaintenanceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe4f02d6-72d3-4ebb-8257-8d5ff11263cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fe4f02d6-72d3-4ebb-8257-8d5ff11263cf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/RentalsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/abstracts/RentalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/RentalManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/create/CreateRentalRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/update/UpdateRentalRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/create/CreateRentalResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetAllRentalsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetRentalResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/update/UpdateRentalResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/entities/Rental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/RentalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67bfb61c-3eee-4a34-9827-3971c8a4ebf2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/67bfb61c-3eee-4a34-9827-3971c8a4ebf2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/BrandsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/BrandsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/CarsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/ModelsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/ModelsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/abstracts/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/abstracts/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/abstracts/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/abstracts/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/MaintenancesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/api/controllers/MaintenancesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/BrandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/BrandManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/CarManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/CarManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/ModelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/ModelManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/create/CreateCarRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/create/CreateCarRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/create/CreateModelRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/create/CreateModelRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/update/UpdateBrandRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/update/UpdateBrandRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/update/UpdateCarRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/update/UpdateCarRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/update/UpdateModelRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/requests/update/UpdateModelRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/create/CreateCarResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/create/CreateCarResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/create/CreateModelResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/create/CreateModelResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetAllCarsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetAllCarsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetAllModelsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetAllModelsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetCarResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetCarResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetModelResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/get/GetModelResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/update/UpdateCarResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/update/UpdateCarResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/update/UpdateModelResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/dto/responses/update/UpdateModelResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/MaintenanceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/business/concretes/MaintenanceManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/entities/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/entities/enums/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/entities/enums/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/BrandRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/BrandRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/CarRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/ModelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-a-car/src/main/java/kodlama/io/rentacar/repository/ModelRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,30 +63,31 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/engin/rent-a-car&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;115742574a0e0746ed604c6e5f482635&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/engin/rent-a-car",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "spring.configuration.checksum": "115742574a0e0746ed604c6e5f482635",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\engin\TurkcellBootcamp\rent-a-car\src\main\java\kodlama\io\rentacar\repository" />
@@ -160,7 +140,8 @@
       <workItem from="1680119911994" duration="1671000" />
       <workItem from="1680167462249" duration="887000" />
       <workItem from="1680336136224" duration="5823000" />
-      <workItem from="1680945642353" duration="1909000" />
+      <workItem from="1680945642353" duration="2230000" />
+      <workItem from="1680950031004" duration="10177000" />
     </task>
     <task id="LOCAL-00001" summary="güncelleme denemesi">
       <created>1679475498742</created>
@@ -197,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680121566583</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".">
+      <created>1680947861939</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680947861939</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

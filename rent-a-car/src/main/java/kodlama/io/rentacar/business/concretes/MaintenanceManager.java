@@ -88,7 +88,19 @@ public class MaintenanceManager implements MaintenanceService {
     @Override
     public void delete(int id) {
         checkIfMaintenanceExists(id);
+
+        MakeCarAvailableIfIsNotCompleted(id);
+
         repository.deleteById(id);
+
+    }
+
+    private void MakeCarAvailableIfIsNotCompleted(int id) {
+        int carId=repository.findById(id).get().getCar().getId();
+
+        if (repository.existsByCarIdAndIsCompletedIsFalse(carId)){
+            carService.changeState(carId,State.AVAILABLE);
+        }
     }
 
     private void checkIfMaintenanceExists(int id) {
@@ -107,6 +119,7 @@ public class MaintenanceManager implements MaintenanceService {
         if (repository.existsByCarIdAndIsCompletedIsFalse(request.getCarId())) {
             throw new RuntimeException("Araç şuanda bakımda!");
         }
+
     }
 
     private void checkCarAvailabilityForMaintenance(CreateMaintenanceRequest request) {
