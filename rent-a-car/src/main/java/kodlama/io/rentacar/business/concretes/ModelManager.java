@@ -9,14 +9,14 @@ import kodlama.io.rentacar.business.dto.responses.get.GetModelResponse;
 import kodlama.io.rentacar.business.dto.responses.update.UpdateModelResponse;
 import kodlama.io.rentacar.entities.Model;
 import kodlama.io.rentacar.repository.ModelRepository;
-import lombok.RequiredArgsConstructor;
+import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class ModelManager implements ModelService {
     private final ModelRepository repository;
     private final ModelMapper mapper;
@@ -77,7 +77,7 @@ public class ModelManager implements ModelService {
 
     private void checkIfModelExistsByName(String name) {
         if (repository.existsByNameIgnoreCase(name)) {
-            throw new RuntimeException("Böyle bir model sistemde kayıtlı!");
+            throw new RuntimeException("Böyle bir model sistemde kayıtlı değil");
         }
     }
 }

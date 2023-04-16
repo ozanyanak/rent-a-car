@@ -20,7 +20,6 @@ import java.util.List;
 public class RentalsController {
     private final RentalService service;
 
-
     @GetMapping
     public List<GetAllRentalsResponse> getAll(){
         return service.getAll();

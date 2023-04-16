@@ -17,7 +17,7 @@ public class CreateCarResponse {
     private int modelId;
 
     private  int ModelYear;
-    private String DailyPrice;
+    private String dailyPrice;
     private String plate;
     @Enumerated(EnumType.STRING)
     private State state;

@@ -12,7 +12,7 @@ import lombok.Setter;
 public class CreateCarRequest {
     private int modelId;
     private  int ModelYear;
-    private String DailyPrice;
+    private double DailyPrice;
     private String plate;
 
 
