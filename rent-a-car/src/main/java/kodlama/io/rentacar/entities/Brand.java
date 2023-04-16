@@ -15,7 +15,7 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="brands")
+@Table(name = "brands")
 //@Data da ekleyebilirdin getter setter diye eklemektense ekstradan to string vb ekliyor
 public class Brand {
 //lombock ile yapacağız ileride

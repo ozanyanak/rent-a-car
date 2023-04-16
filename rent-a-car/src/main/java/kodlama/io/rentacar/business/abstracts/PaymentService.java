@@ -14,9 +14,13 @@ public interface PaymentService {
 
 
     List<GetAllPaymentsResponse> getAll();
-    GetPaymentResponse  getById(int id);
+
+    GetPaymentResponse getById(int id);
+
     CreatePaymentResponse add(CreatePaymentRequest request);
-    UpdatePaymentResponse update(int id,UpdatePaymentRequest request);
+
+    UpdatePaymentResponse update(int id, UpdatePaymentRequest request);
+
     void delete(int id);
 
     void processRentalPayment(CreateRentalPaymentRequest request);

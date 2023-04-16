@@ -29,5 +29,4 @@ public class Invoice {
     private LocalDateTime rentedAt;
 
 
-
 }

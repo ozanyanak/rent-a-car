@@ -21,7 +21,7 @@ public class PaymentsController {
     private final PaymentService service;
 
     @GetMapping
-    public List<GetAllPaymentsResponse> getAll(){
+    public List<GetAllPaymentsResponse> getAll() {
         return service.getAll();
     }
 

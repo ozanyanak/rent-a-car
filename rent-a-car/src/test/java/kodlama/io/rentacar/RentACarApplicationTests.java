@@ -7,8 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class RentACarApplicationTests {
 //testtemi yazacaksınız yoksa bu hazırmı geliyor
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }

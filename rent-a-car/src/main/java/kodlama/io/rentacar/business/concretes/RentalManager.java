@@ -23,6 +23,7 @@ import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
+
 @Service
 @AllArgsConstructor
 public class RentalManager implements RentalService {
@@ -74,6 +75,7 @@ public class RentalManager implements RentalService {
         // Create Invoice
         // Car car = mapper.map(carService.getById(request.getCarId()), Car.class);
         // rental.setCar(car);
+        //dto kullanmak istemiyorsan yukarıdaki şekilde car oluşturup rentala set edersin
         CreateInvoiceRequest invoiceRequest = new CreateInvoiceRequest();
         createInvoiceRequest(request, invoiceRequest, rental);
         invoiceService.add(invoiceRequest);
@@ -117,4 +119,5 @@ public class RentalManager implements RentalService {
         invoiceRequest.setModelYear(car.getModelYear());
         invoiceRequest.setRentedForDays(request.getRentedForDays());
     }
+
 }

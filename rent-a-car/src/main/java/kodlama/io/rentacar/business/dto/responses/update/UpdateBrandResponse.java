@@ -11,6 +11,6 @@ import lombok.Setter;
 @AllArgsConstructor
 public class UpdateBrandResponse {
     private int id;
-    private  String name;
+    private String name;
 
 }
