@@ -25,7 +25,6 @@ public class CreateInvoiceRequest {
     private String brandName;
     @NotBlank
     private String plate;
-    @NotNull
     @Min(2006)
     private int modelYear;
     @NotNull
